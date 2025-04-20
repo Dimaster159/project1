@@ -1,0 +1,19 @@
+/* Base */
+@use './base/fontsAutoGen';
+@use './base/globals';
+@use './base/reset';
+@use './base/sticky-footer';
+@use './base/utils';
+@use './base/vars';
+
+/* Helpers  */
+@use './helpers/functions';
+@use './helpers/index';
+@use './helpers/media';
+@use './helpers/mixins';
+
+/* Blocks */
+@use './blocks/header';
+
+/* No styles code below. Only in modules */
+/* Не пишите CSS код ниже. Только в подключаемых файлах */

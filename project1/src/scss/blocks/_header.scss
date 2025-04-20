@@ -1,0 +1,10 @@
+body {
+    background-color: chartreuse;
+    position: sticky;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+}

@@ -50,3 +50,30 @@ function checkSpam(str) {
 checkSpam('free xxxxx');
 checkSpam('buy ViAgRA now');
 checkSpam("innocent rabbit");
+
+function truncate(str, maxlength) {
+    if (str.length <= maxlength) {
+        console.log(str);
+    }else {
+        let shortCut = str.slice(0, (maxlength - 1)) + "…";
+        console.log(shortCut);
+    }
+}
+
+truncate("Вот, что мне хотелось бы сказать на эту тему:", 20);
+truncate("Всем привет!", 20);
+
+function extractCurrencyValue(str) {
+    let number = '';
+    for (let i of str) {
+        if ( !isNaN(i)) {
+            number += i;
+        }else{
+            continue;
+        }
+    }
+    console.log(+number);
+}
+
+extractCurrencyValue('$120');
+extractCurrencyValue('ghjfhk34kdfkld');

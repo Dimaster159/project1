@@ -1,37 +1,37 @@
-// let singleQuote = 'quote';
-// let doubleQuote = "quotes";
+let singleQuote = 'quote';
+let doubleQuote = "quotes";
 
-// let cars = "BMW \nMersedes \n";
-// console.log(cars);
+let cars = "BMW \nMersedes \n";
+console.log(cars);
 
-// console.log(`I'm Dima\\`);
-// console.log('Dima'.length);
+console.log(`I'm Dima\\`);
+console.log('Dima'.length);
 
-// const name = "Vasia";
-// console.log(name[2]);
-// console.log(name.at(3));
+const name = "Vasia";
+console.log(name[2]);
+console.log(name.at(3));
 
-// for (let char of name) {
-//     console.log(char)
-// }
+for (let char of name) {
+    console.log(char)
+}
 
-// console.log(name[2].toUpperCase());
-// console.log(name.indexOf('ia'));
-// console.log(name.includes('si'));
-// console.log(name.slice(0, 3));
-// console.log(name.codePointAt(1));
+console.log(name[2].toUpperCase());
+console.log(name.indexOf('ia'));
+console.log(name.includes('si'));
+console.log(name.slice(0, 3));
+console.log(name.codePointAt(1));
 
-// let str = "";
-// for (let i = 65; i <= 220; i++) {
-//     str += String.fromCodePoint(i);
-// }
-// console.log(str);
+let str = "";
+for (let i = 65; i <= 220; i++) {
+    str += String.fromCodePoint(i);
+}
+console.log(str);
 
-// const str1 = 'DIma';
-// const str2 = 'Vasia'
-// console.log(str1.localeCompare(str2));
+const str1 = 'DIma';
+const str2 = 'Vasia'
+console.log(str1.localeCompare(str2));
 
-/*
+
  //Переводит первую букву в строке в верхний регистр
 
 function ucFirst(str) {
@@ -82,4 +82,3 @@ function extractCurrencyValue(str) {
 }
 extractCurrencyValue('$120');
 extractCurrencyValue('ghjfhk34kdfkld');
-*/

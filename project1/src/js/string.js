@@ -31,6 +31,7 @@ const str1 = 'DIma';
 const str2 = 'Vasia'
 console.log(str1.localeCompare(str2));
 
+// Задачи
 
  //Переводит первую букву в строке в верхний регистр
 

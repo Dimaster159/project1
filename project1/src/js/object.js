@@ -15,6 +15,11 @@ const house = {
 }
 user['house'] = house;
 
+const {floors, square} = house; // Деструктуризация 
+
+Object.keys(user); // Получение маасива ключей объекта
+Object.values(user); // Получение массива значений объекта
+
 const car = 'Lada';
 const model = 'Vesta';
 

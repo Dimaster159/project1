@@ -5,7 +5,7 @@ let cars = "BMW \nMersedes \n";
 console.log(cars);
 
 console.log(`I'm Dima\\`);
-console.log('Dima'.length);
+console.log('Dima'.length); // Длина строки
 
 const name = "Vasia";
 console.log(name[2]);
@@ -15,11 +15,11 @@ for (let char of name) {
     console.log(char)
 }
 
-console.log(name[2].toUpperCase());
-console.log(name.indexOf('ia'));
-console.log(name.includes('si'));
-console.log(name.slice(0, 3));
-console.log(name.codePointAt(1));
+console.log(name[2].toUpperCase()); // Переводит все буквы в верхний регистр
+console.log(name.indexOf('ia')); // Возвращает индес подстраки
+console.log(name.includes('si')); // Содержит подстроку
+console.log(name.slice(0, 3)); // Обрезает строку
+console.log(name.codePointAt(1)); 
 
 let str = "";
 for (let i = 65; i <= 220; i++) {
@@ -82,4 +82,5 @@ function extractCurrencyValue(str) {
     console.log(+number);
 }
 extractCurrencyValue('$120');
-extractCurrencyValue('ghjfhk34kdfkld');
+extractCurrencyValue('ghjfhk34 kdfkld');
+

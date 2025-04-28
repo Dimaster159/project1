@@ -13,5 +13,5 @@ value = parseInt(value); // Цулые числа
 value = parseFloat(value); // С плавающей точкой
 
 // К булевому значению
-value = !!value; 
+value = !!value;
 value = Boolean(value);

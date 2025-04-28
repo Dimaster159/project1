@@ -17,9 +17,15 @@ for (let char of name) {
 
 console.log(name[2].toUpperCase()); // Переводит все буквы в верхний регистр
 console.log(name.indexOf('ia')); // Возвращает индес подстраки
-console.log(name.includes('si')); // Содержит подстроку
+console.log(name.includes('si')); // Содержит ли подстроку
+str.startsWith(''); // Начинается ли с данной подстроки
 console.log(name.slice(0, 3)); // Обрезает строку
+str.substring(0, 4); // Возвращает поддстроку
 console.log(name.codePointAt(1)); 
+name.repeat(3); // Повторяет строку определенное количество раз
+name.trim(); // Удаляет все пробелы в начале и конце строки
+str.replace(str1, str2); // Заменяет одну подстроку другой
+
 
 let str = "";
 for (let i = 65; i <= 220; i++) {

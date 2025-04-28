@@ -11,7 +11,7 @@ while (i < 3) {
 let j = 10;
 do {
     console.log(j);
-} while(j < 5);
+} while (j < 5);
 
 const myArray = ['firs', 'second', 'third']; // Перебор массива
 myArray.forEach((e, i) => {
@@ -30,4 +30,20 @@ for (const k in obj) {
 const str = 'Dima';         // Перебор строки/массива
 for (const letter of str) {
     console.log(letter);
+}
+
+let num = 2 + 5;
+
+switch (x) {
+    case 3:
+        console.log('не то');
+        break;
+    case 5:
+        console.log('опять не то');
+        break
+    case 7:
+        console.log('вот это то');
+        break;
+    default:
+        console.log('нет ответа');
 }

@@ -1,9 +1,13 @@
-function sum(a, b) {
+function sum(a, b) {    // Function decloration
     let c = (a + b) * 5;
     return c;
 }
 let sum1 = sum(5, 26);
 console.log(sum1);
+
+const expressionFn = function () {        // function expression
+    console.log('это функция expression')
+}
 
 // Колбэк функции
 
@@ -27,7 +31,7 @@ const arrFn = (a, b) => {
 
 arrFn(5, 97);
 
-let b = a => a += 1;
+let b = a => a += 1; // Стрелочная функция
 console.log(b)
 
 const multyByFactor = (value, multipli = 5) => {
@@ -35,7 +39,7 @@ const multyByFactor = (value, multipli = 5) => {
 }
 
 console.log(multyByFactor(25, 6));
-console.log( Date());
+console.log(Date());
 
 const newPost = (post, addetAt = Date()) => {
     return {
@@ -56,7 +60,7 @@ const userProfile = {
     coments: 23,
 }
 
-const userInfo = ({name, coments}) => {
+const userInfo = ({ name, coments }) => {
     if (!coments) {
         return `User ${name} has not comments`;
     }
@@ -69,9 +73,14 @@ const u = 5;
 const y = 10;
 
 function isTrue() {
-    if (u > 10 || y <= 10){
+    if (u > 10 || y <= 10) {
         return console.log(true);
     }
 }
 
 isTrue();
+
+(function (name) {             // Immediately-invoked function expression
+    var message = `hello ${name}`;
+    console.log(message);
+})('Dima');

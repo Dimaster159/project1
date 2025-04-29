@@ -1,4 +1,6 @@
-import './scss/style.scss';
+// 'use strict';
+
+// import './scss/style.scss';
 // import './js/string.js';
 // import './js/array.js';
 // import './js/map.js';
@@ -8,4 +10,4 @@ import './scss/style.scss';
 // import './js/operators.js';
 // import './js/error.js';
 // import './js/instruction.js';
-// import './js/cycles.js';
+import './js/cycles.js';

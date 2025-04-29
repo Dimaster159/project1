@@ -34,8 +34,8 @@ for (const letter of str) {
 
 let num = 2 + 5;
 
-switch (x) {
-    case 3:
+switch (true) {
+    case num > 2:
         console.log('не то');
         break;
     case 5:

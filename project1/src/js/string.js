@@ -1,6 +1,7 @@
 let singleQuote = 'quote';
 let doubleQuote = "quotes";
 
+
 let cars = "BMW \nMersedes \n";
 console.log(cars);
 
@@ -15,6 +16,8 @@ for (let char of name) {
     console.log(char)
 }
 
+const str = [];
+
 console.log(name[2].toUpperCase()); // Переводит все буквы в верхний регистр
 console.log(name.indexOf('ia')); // Возвращает индес подстраки
 console.log(name.includes('si')); // Содержит ли подстроку
@@ -27,9 +30,9 @@ name.trim(); // Удаляет все пробелы в начале и конц
 str.replace(str1, str2); // Заменяет одну подстроку другой
 
 
-let str = "";
+let str3 = "";
 for (let i = 65; i <= 220; i++) {
-    str += String.fromCodePoint(i);
+    str3 += String.fromCodePoint(i);
 }
 console.log(str);
 

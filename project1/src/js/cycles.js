@@ -48,8 +48,14 @@
 //         console.log('нет ответа');
 // }
 
-const seyHello = (name) => {
-    console.log(`Hello ${name}`);
-}
+// const seyHello = (name) => {
+//     console.log(`Hello ${name}`);
+// }
 
-setTimeout(seyHello, 2000, "Dima");
+// setTimeout(seyHello, 2000, "Dima");
+
+const buttonElement = document.querySelector('[data-button]');
+
+buttonElement.addEventListener('mouseover', () => {
+    console.log('курсор навели на кнопку')
+})

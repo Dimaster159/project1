@@ -15,3 +15,10 @@ value = parseFloat(value); // С плавающей точкой
 // К булевому значению
 value = !!value;
 value = Boolean(value);
+
+// Объект к массиву
+newArr = [...obj];
+
+// Массив к объекту
+
+newObj = {...obj};

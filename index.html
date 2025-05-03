@@ -1,16 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" src="./project1/src/main.js" defer></script>
-  </head>
-  <body>
-    <div id="app" data-text>
-      <button data-button>Нажми меня</button>
-    </div>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script type="module" src="./project1/src/main.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>Клиент-серверное взаимодействие</h1>
+    <form class="create-post-form">
+      <h2>Создание поста</h2>
+      <p>
+        <label for="new-post-title">Заголовок поста:</label>
+        <input type="text" id="new-post-title" name="title">
+      </p>
+      <p>
+        <label for="new-post-id">Идентификатор поста:</label>
+        <input type="number" id="new-post-id" name="id">
+      </p>
+      <button type="submit">
+        Загрузить пост на сервер
+      </button>
+    </form>
+    <form class="load-post-form">
+      <h2>Поиск поста по ID</h2>
+      <p>
+        <label for="post-id">Идентификатор поста:</label>
+        <input type="number" id="post-id" value="1">
+      </p>
+      <button type="submit">
+        Загрузить информацию с сервера
+      </button>
+    </form>
+    <form class="search-post-form">
+      <h2>Поиск постов</h2>
+      <p>
+        <label for="post-views">Минимум просмотров</label>
+        <input type="number" id="post-views" value="0">
+      </p>
+      <button type="submit">
+        Найти посты
+      </button>
+    </form>
+    <div class="result"></div>
+  </main>
+</body>
+
+
 </html>

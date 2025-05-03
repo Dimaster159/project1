@@ -20,5 +20,7 @@ value = Boolean(value);
 newArr = [...obj];
 
 // Массив к объекту
-
 newObj = {...obj};
+
+// Из DOM элемента Form в объект
+dataObject = Object.fromEntries(dataElement);
